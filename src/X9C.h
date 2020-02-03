@@ -31,7 +31,7 @@ SOFTWARE.
 #include <Arduino.h>
 
 #define X9C_UP LOW
-#define X9C_DOWN HIGH
+#define X9C_DOWN HIGH // IS HIGH AND LOW HERE MIXED UP ?!!?!?!?
 #define X9C_MAX 99
 //
 // stepPot explicilty does NOT save to NVRAM - allows reboot to old NVRAM value, with minor runtime tweaks
